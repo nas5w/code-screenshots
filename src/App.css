@@ -1,22 +1,26 @@
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  padding: 5px;
-}
-
 .CodeMirror {
   font-size: 20px;
   line-height: 30px;
   height: auto;
-  width: auto;
   overflow-y: hidden;
-  overflow-x: hidden;
+  word-wrap: break-word;
 }
 
 .CodeMirror-scroll {
   height: auto;
-  width: auto;
+  word-wrap: break-word;
+}
+
+.preview-area {
+  margin-top: 5px;
+  color: #555;
+  font-style: italic;
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
+.column {
+  margin: 10px 0 10px 0;
 }
